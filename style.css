@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    text-transform: capitalize;
+}
+header
+{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.card.fa-solid{
+    
+    height: 30px;
+    
+}
+.card-text{
+    font-size: x-small;
+}
+.col-md-6 img{
+    width: 500px;
+    height: 500px;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+}
+.img-responsive{
+    
+    height: 10em;
+    width: 16em;
+   
+}
+.facility .row .img-responsive{
+    object-fit: cover;
+    overflow: hidden;
+}
+.facility .row .img-responsive:hover{
+    transform: scale(1.1 );
+
+}
+
+
